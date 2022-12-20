@@ -5,7 +5,7 @@ test:
 	npm test
 
 gendiff:
-	node bin/gendiff.js file1.json file2.json
+	node bin/gendiff.js file1.yaml file2.yaml
 
 lint:
 	npx eslint .

@@ -18,4 +18,6 @@ const genDiff = (filepath1, filepath2) => {
   return diffFunc(fileData1, fileData2);
 };
 
+console.log(genDiff("file1.json", "file2.json"))
+
 export default genDiff;
